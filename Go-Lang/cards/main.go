@@ -12,5 +12,11 @@ func main() {
 	card = "five of Diamonds"
 	fmt.Println(card)
 	fmt.Println(deckSize)
+	//function declaration
+	newcard := newCard()
+	fmt.Println(newcard)
+}
 
+func newCard() string {
+	return "seven of jack"
 }
