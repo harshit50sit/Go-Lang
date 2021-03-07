@@ -5,5 +5,5 @@ import "fmt"
 func main() {
 	fmt.Println("Hello, World!")
 	i := 101
-	fmt.Println(i + 1)
+	//fmt.Println(i + 1)
 }
